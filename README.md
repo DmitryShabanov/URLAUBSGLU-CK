@@ -1,4 +1,4 @@
-# URLAUBSGLU-CK
-URLAUBSGLU-CK is a some adaptive website theme
+# URLAUBSGLUCK
+URLAUBSGLUCK is a some adaptive website theme
 
-[Live version](https://dmitryshabanov.github.io/URLAUBSGLU-CK/)
+[Live version](https://dmitryshabanov.github.io/URLAUBSGLUCK/)
