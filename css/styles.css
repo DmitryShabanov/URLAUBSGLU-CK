@@ -84,22 +84,29 @@
 .header-button {
   display: block;
 
+  box-sizing: border-box;
   width: 225px;
   height: 40px;
   margin: 0 auto;
   margin-top: 35px;
 
+  transition: all .25s;
   text-align: center;
   text-decoration: none;
 
   color: #fff;
+  border: 2px solid #ff4e50;
   border-radius: 20px;
   background-color: #ff4e50;
 
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 36px;
+}
+
+.header-button:hover {
+  cursor: pointer;
 }
 
 .section-title {
@@ -115,7 +122,6 @@
 .how-works-title {
   margin-top: 98px;
 }
-
 
 .step {
   position: relative;
@@ -185,4 +191,196 @@
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
+}
+
+.partners-title {
+  margin-top: 100px;
+}
+
+.partner-item {
+  margin-top: 32px;
+}
+
+.partner-image {
+  position: relative;
+
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+
+  background: no-repeat center;
+  background-size: cover;
+}
+
+.partner-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 32px;
+  height: 32px;
+
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.partner-icon-image {
+  display: block;
+
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.partner-name {
+  margin-top: 21px;
+
+  text-align: center;
+
+  color: #333;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.partner-about {
+  width: 221px;
+  margin: 0 auto;
+  margin-top: 11px;
+
+  text-align: center;
+
+  color: #666;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.partners-button {
+  display: block;
+
+  box-sizing: border-box;
+  width: 192px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 25px;
+
+  transition: all .25s;
+  text-align: center;
+  text-decoration: none;
+
+  color: #ff4e50;
+  border: 2px solid #ff4e50;
+  border-radius: 20px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.partners-button:hover {
+  cursor: pointer;
+
+  color: #fff;
+  background-color: #ff4e50;
+}
+
+.discover-title {
+  margin-top: 101px;
+  margin-bottom: 16px;
+}
+
+.discover-item {
+  position: relative;
+
+  height: 310px;
+  margin-top: 20px;
+
+  border-radius: 4px;
+}
+
+.discover-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+
+  height: 24px;
+  margin: auto;
+
+  text-align: center;
+
+  color: #fff;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.discover-subtitle {
+  margin-top: 36px;
+
+  text-align: center;
+
+  color: #333;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.discover-form {
+  width: 410px;
+  margin: 0 auto;
+  margin-top: 38px;
+}
+
+.discover-input {
+  display: block;
+  float: left;
+
+  box-sizing: border-box;
+  width: 240px;
+  height: 40px;
+  padding: 0 17px;
+
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 4px;
+  outline: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.discover-send {
+  display: block;
+  float: left;
+
+  width: 160px;
+  height: 40px;
+  margin-left: 10px;
+
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background-color: #ff4e50;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.discover-send:hover {
+  cursor: pointer;
 }
