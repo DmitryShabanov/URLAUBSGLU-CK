@@ -1,3 +1,4 @@
+/*desctop version*/
 .header {
   height: 700px;
 
@@ -326,6 +327,7 @@
 
 .hover-item:hover:before {
   opacity: .2;
+  cursor: pointer;
 }
 
 .discover-text {
@@ -494,3 +496,8 @@
   background: url(../img/footer-icon.png) no-repeat center;
   background-size: cover;
 }
+
+/*tablet version*/
+
+
+/*mobile version*/
