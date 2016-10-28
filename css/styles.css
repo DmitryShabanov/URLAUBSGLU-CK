@@ -186,6 +186,7 @@
 @media (max-width: 767px) {
   .header-button {
     margin-top: 20px;
+    width: 280px;
   }
 }
 
