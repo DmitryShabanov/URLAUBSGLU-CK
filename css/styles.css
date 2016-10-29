@@ -145,7 +145,6 @@
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 300;
-
   line-height: 1.2em;
 }
 
@@ -185,8 +184,8 @@
 
 @media (max-width: 767px) {
   .header-button {
-    margin-top: 20px;
     width: 280px;
+    margin-top: 20px;
   }
 }
 
@@ -206,6 +205,14 @@
 
 .how-works-title {
   margin-top: 98px;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+  .how-works-title {
+    margin-top: 38px;
+    margin-bottom: 15px;
+  }
 }
 
 .step {
@@ -214,23 +221,59 @@
   box-sizing: border-box;
   width: 300px;
   height: 400px;
-  margin-top: 35px;
 
   border-radius: 4px;
   background: no-repeat center;
   background-size: cover;
 }
 
+@media (min-width: 768px) and (max-width: 959px) {
+  .step {
+    width: 236px;
+  }
+}
+
+@media (max-width: 767px) {
+  .step {
+    width: 300px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+
 .step-angle {
+  display: block;
+
+  width: 30px;
+  height: 65px;
   margin: 153px 21px 0 21px;
+
+  background: no-repeat center;
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+  .step-angle {
+    margin: 40px 21px 0 21px;
+  }
+}
+
+@media (max-width: 767px) {
+  .step-angle {
+    display: none;
+  }
 }
 
 .left-angle {
   float: left;
+
+  background-image: url(../img/leftAngle.svg);
 }
 
 .right-angle {
   float: right;
+
+  background-image: url(../img/rightAngle.svg);
 }
 
 .step-info {
@@ -239,6 +282,12 @@
 
   width: 260px;
   margin: 0 20px;
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+  .step-info {
+    width: auto;
+  }
 }
 
 .step-button {
