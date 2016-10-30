@@ -202,6 +202,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: 700;
+  line-height: 1.2em;
 }
 
 .how-works-title {
@@ -342,8 +343,6 @@
 @media (max-width: 767px) {
   .partners-title {
     margin-top: 38px;
-
-    line-height: 1.2em;
   }
 }
 
@@ -463,8 +462,8 @@
 
 @media (max-width: 767px) {
   .partners-button {
-    margin-top: 16px;
     width: 280px;
+    margin-top: 16px;
   }
 }
 
@@ -476,8 +475,15 @@
 }
 
 .discover-title {
-  margin-top: 101px;
+  margin-top: 100px;
   margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .discover-title {
+    margin-top: 38px;
+    margin-bottom: 10px;
+  }
 }
 
 .discover-item {
@@ -487,6 +493,17 @@
   margin-top: 20px;
 
   border-radius: 4px;
+  background: no-repeat center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .discover-item {
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 }
 
 .hover-item:before {
@@ -542,10 +559,30 @@
   font-weight: 300;
 }
 
+@media (max-width: 767px) {
+  .discover-title-down {
+    margin-top: 39px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .discover-subtitle {
+    margin-top: 14px;
+  }
+}
+
 .discover-form {
   width: 410px;
   margin: 0 auto;
   margin-top: 38px;
+}
+
+@media (max-width: 767px) {
+  .discover-form {
+    width: 100%;
+    margin-top: 16px;
+  }
 }
 
 .discover-input {
@@ -567,6 +604,15 @@
   font-weight: 300;
 }
 
+@media (max-width: 767px) {
+  .discover-input {
+    float: none;
+
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
 .discover-send {
   display: block;
   float: left;
@@ -584,6 +630,16 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .discover-send {
+    float: none;
+
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 }
 
 .discover-send:hover {
